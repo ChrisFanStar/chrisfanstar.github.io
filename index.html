@@ -21,23 +21,24 @@
         }
 
         #header {
-            display: flex;
+            /* display: flex; */
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             padding: 10px 0;
-            border-bottom: 1px solid #ddd;
+            text-align: center;
+            /* border-bottom: 1px solid #ddd; */
         }
 
-        #header img {
+        #avatarImage {
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            margin-left: 10px;
+            margin-left: 604px;
         }
 
         h1 {
             color: #333;
-            margin-top: 0;
+            margin-top: -154px;
         }
 
         h2 {
@@ -45,6 +46,12 @@
             border-bottom: 1px solid #ddd;
             padding-bottom: 5px;
         }
+
+        b {
+            color: #555;
+        }
+
+
 
         p {
             margin: 5px 0;
@@ -59,58 +66,102 @@
         ul li {
             margin-bottom: 5px;
         }
+
+        a {
+            /* color: white; */
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            color: #409eff;
+        }
+
+        a:hover {
+            color: rgb(213, 213, 27);
+        }
+
+        a:visited {
+            /* color: white; */
+        }
     </style>
 </head>
 
 <body>
 
     <div id="container">
-
-        <div id="header">
-            <div>
-                <img src="./chrisfan.jpg" alt="Your Photo">
-                <h1>Chris Fan</h1>
+        <img id="avatarImage" src="./chrisfan.jpg" alt="Your Photo">
+        <div>
+            <div id="header">
+                <div>
+                    <h1>Chris Fan</h1>
+                </div>
+                <!-- <img src="icon.jpg" alt="Icon" width="50" style="float: right;"> -->
+                Email: <a href="mailto:1580332947@qq.com">1580332947@qq.com</a>
             </div>
-            <!-- <img src="icon.jpg" alt="Icon" width="50" style="float: right;"> -->
+
         </div>
 
-        <p><strong>Email</strong>: <a href="mailto:1580332947@qq.com">1580332947@qq.com</a></p>
 
-        <h2>Objective</h2>
-        <p>[Your career objective]</p>
-
-        <h2>Education</h2>
-        <ul>
+        <h2>Personal Profile</h2>
+        <!-- <ul>
             <li>[Degree Name], [University Name], [Graduation Year]</li>
             <li>[Degree Name], [University Name], [Graduation Year]</li>
-        </ul>
+        </ul> -->
 
-        <h2>Skills</h2>
+        I graduated from Yichun University in 2021, earning a Bachelor of Engineering degree in Network Engineering.
+
+
+        <br>
+
+        <h2>Research Interests</h2>
+        I am interested in medicine, the Internet of Things and robotics. Recently, I have been conducting research on
+        them.
+
+        <!-- <h2>Skills</h2>
         <ul>
             <li>[Skill 1]</li>
             <li>[Skill 2]</li>
             <li>[Skill 3]</li>
-        </ul>
+        </ul> -->
 
-        <h2>Experience</h2>
+        <h2>Publications</h2>
         <ul>
             <li>[Company Name], [Position], [Start Date] - [End Date]</li>
             <li>[Describe your main responsibilities and achievements]</li>
+
         </ul>
 
-        <h2>Projects</h2>
+        <h2>Industry Experiences</h2>
+
         <ul>
-            <li>[Project Name], [Project Description], [Project Date]</li>
+            <li> <b>[Company Name], Software Engineer | 2021 - 2023, Hangzhou, China</b>
+                <ul>
+                    <li>
+                        I worked on <a href="https://flab.zhejianglab.com/#/login">Future
+                            Laboratory Project</a> of Zhejiang Province.
+                    </li>
+                    <li>Developed and maintained web applications using [Technologies Used, e.g. Python, Django,
+                        JavaScript]
+                    </li>
+                    <li>Collaborated with cross-functional teams to design and implement new features based on user
+                        requirements.</li>
+                    <li>Performed code reviews and optimized application performance to improve system efficiency.</li>
+                </ul>
+            </li>
         </ul>
 
         <h2>Achievements</h2>
         <ul>
             <li>[Achievement 1]</li>
+            专利
+            Patent Title, Patent Number, Year.
+            Example: "Method for Energy-Efficient Data Transmission", Patent No. 1234567, 2023.
             <li>[Achievement 2]</li>
         </ul>
 
-        <h2>Hobbies</h2>
-        <p>[Mention your hobbies and interests]</p>
+        <h2>services</h2>
+        <ul>
+            <li>1、[Service 1]</li>
+            <li>2、[Service 2]</li>
+        </ul>
 
     </div>
 
