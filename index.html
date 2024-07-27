@@ -2,51 +2,116 @@
 <html>
 
 <head>
+    <title>Chris Fan</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        #container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 0;
         }
 
         h2 {
-            color: #333;
+            color: #555;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
         }
 
         p {
             margin: 5px 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 
 <body>
 
-    <h2>Personal Profile</h2>
+    <div id="container">
 
-    <img src="./chrisfan.jpg" alt="Chris Fan Photo" width="150">
+        <div id="header">
+            <div>
+                <img src="./chrisfan.jpg" alt="Your Photo">
+                <h1>Chris Fan</h1>
+            </div>
+            <img src="icon.jpg" alt="Icon" width="50" style="float: right;">
+        </div>
 
-    <p><strong>Name</strong>: Chris Fan</p>
-    <p><strong>Email</strong>: <a href="mailto:1580332947@qq.com">1580332947@qq.com</a></p>
+        <p><strong>Email</strong>: <a href="mailto:1580332947@qq.com">1580332947@qq.com</a></p>
 
-    <h2>Objective</h2>
-    <p>[Your career objective]</p>
+        <h2>Objective</h2>
+        <p>[Your career objective]</p>
 
-    <h2>Education</h2>
-    <p>[Degree Name], [University Name], [Graduation Year]</p>
+        <h2>Education</h2>
+        <ul>
+            <li>[Degree Name], [University Name], [Graduation Year]</li>
+            <li>[Degree Name], [University Name], [Graduation Year]</li>
+        </ul>
 
-    <h2>Skills</h2>
-    <p>[List your skills, such as programming languages, software, etc.]</p>
+        <h2>Skills</h2>
+        <ul>
+            <li>[Skill 1]</li>
+            <li>[Skill 2]</li>
+            <li>[Skill 3]</li>
+        </ul>
 
-    <h2>Experience</h2>
-    <p>[Company Name], [Position], [Start Date] - [End Date]</p>
-    <p>[Describe your main responsibilities and achievements]</p>
+        <h2>Experience</h2>
+        <ul>
+            <li>[Company Name], [Position], [Start Date] - [End Date]</li>
+            <li>[Describe your main responsibilities and achievements]</li>
+        </ul>
 
-    <h2>Projects</h2>
-    <p>[Project Name], [Project Description], [Project Date]</p>
+        <h2>Projects</h2>
+        <ul>
+            <li>[Project Name], [Project Description], [Project Date]</li>
+        </ul>
 
-    <h2>Achievements</h2>
-    <p>[List your significant achievements]</p>
+        <h2>Achievements</h2>
+        <ul>
+            <li>[Achievement 1]</li>
+            <li>[Achievement 2]</li>
+        </ul>
 
-    <h2>Hobbies</h2>
-    <p>[Mention your hobbies and interests]</p>
+        <h2>Hobbies</h2>
+        <p>[Mention your hobbies and interests]</p>
+
+    </div>
 
 </body>
 
