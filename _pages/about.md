@@ -58,4 +58,4 @@ Proceedings of the ACM on Management of Data, Volume 2, Issue 1, pp 1–26
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # Internships
-- *2019.05 - 2020.02*, [Alibaba](https://github.com/), China.
+- *2019.05 - 2020.02*, [Alibaba](https://github.com/), China1.
