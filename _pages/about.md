@@ -30,8 +30,8 @@ them.
 
 <!-- # 📖 Educations -->
 # Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, B.E. in Network Engineering. 
+- *2017.09 - 2021.06*, Yichun University(YCU) , B.E. in Network Engineering. 
 
 <!-- # 📝 Publications  -->
 # Publications 
