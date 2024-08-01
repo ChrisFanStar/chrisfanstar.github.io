@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/chrisfan.jpg"
   bio              : "Lorem ipsum College"
   location         : "YiChun,JiangXi,China"
   employer         :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username" https://github.com/ChrisFanStar
+  github           : "https://github.com/ChrisFanStar"
   google_plus      :
   keybase          :
   instagram        :
