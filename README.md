@@ -1,6 +1,6 @@
 
 <h1 align="center">
-AcadHomepage
+This is  my github page code , it's a personal introduction page
 </h1>
 
 <div align="center">
