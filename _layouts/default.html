@@ -4,35 +4,46 @@ layout: compress
 
 <!doctype html>
 <html lang="en" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
 
-  <body>
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<body>
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
-        </div>
-      </article>
-    </div>
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
 
-    {% include scripts.html %}
+  <div id="main" role="main">
+    {% include sidebar.html %}
+
+    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      {% if page.title %}
+      <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{%
+      endif %}
+      <div class="page__inner-wrap">
+        <section class="page__content" itemprop="text">
+          {{ content }}
+        </section>
+      </div>
+    </article>
+  </div>
+
+  {% include scripts.html %}
 
   <!-- <div style="height: 250px;width: 250px;margin-left: 40px;">
     <script type="text/javascript" id="clstr_globe"
       src="https://clustrmaps.com/globe.js?d=jEedlNVklOX2IZqAQB0Waa8-5oRjlCYuVpdX7PitdPg"></script>
   </div> -->
 
-  </body>
+
+
+  <a href="https://www.revolvermaps.com/livestats/5o60lu4c8um/"><img
+      src="//rf.revolvermaps.com/h/m/a/0/ff0000/128/0/5o60lu4c8um.png" width="256" height="128" alt="Map"
+      style="border:0;"></a>
+
+
+</body>
+
 </html>
