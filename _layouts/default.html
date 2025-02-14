@@ -1,7 +1,3 @@
----
-layout: compress
----
-
 <!doctype html>
 <html lang="en" class="no-js">
 
@@ -36,15 +32,58 @@ layout: compress
     <!-- <script type="text/javascript" id="clstr_globe"
       src="https://clustrmaps.com/globe.js?d=jEedlNVklOX2IZqAQB0Waa8-5oRjlCYuVpdX7PitdPg"></script> -->
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ibiYdx9Xf_-JDOmaoD82kNl2ZYiDHyRnA23ypgUTNBA"></script>
-
-
   </div>
 
+  <!-- 插入图片 -->
+  <!-- <img id="bottom-left-image" src="../images/michael_jardon.png" alt="Your Image"> -->
 
-
-
-
+    <!-- 插入图片和文字 -->
+  <div class="image-with-text">
+    <img  src="../images/michael_jardon.png" alt="Your Image">
+    <div class="overlay-text">either stand out or be out</div>
+  </div>
 
 </body>
+
+<!-- 定义图片样式，使其固定在左下角 -->
+<style>
+  #bottom-left-image {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    /* 根据需要调整图片宽度 */
+    height: auto;
+    /* 保持图片的宽高比 */
+  }
+
+
+     /* 容器样式，用于定位图片和文字 */
+    .image-with-text {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      width: 300px;
+    }
+
+    /* 图片样式 */
+    .image-with-text img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* 文字样式 */
+    .image-with-text .overlay-text {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(255, 225, 0); /* 文字颜色 */
+      font-size: 20px; /* 文字大小 */
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0); /* 文字背景半透明黑色 */
+      padding: 10px;
+    }
+</style>
 
 </html>
